@@ -33,7 +33,7 @@ from sklearn.preprocessing import StandardScaler
 
 from src.features.dataset import MODELS_DIR, RANDOM_STATE, RESULTS_DIR, get_split
 from src.features.preprocessing import build_classification_pipeline, build_regression_pipeline
-from src.models.metrics import (
+from src.models.metric_ahmed import (
     band_confusion,
     classification_metrics,
     error_by_group,
